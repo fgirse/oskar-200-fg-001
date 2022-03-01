@@ -2,11 +2,14 @@
 import Link from './Link'
 import siteMetadata from '/data/siteMetadata.js'
 import SocialIcon from '../components/social-icons'
-
+import LogoLeckerLaden from '../components/icons/svg/SVGLogoLeckerladen.js'
 export default function Footer() {
   return (
     <footer className="bg-red-900 w-full border-yellow-300mx-auto">
-      <div className="flex flex-col items-center mt-16">
+
+          <section className='flex flex-row justify-around items-center'>
+            <div className='bg-blue-500 w-3/12 h-36'></div>
+          <div className="flex flex-col items-center mt-16">
         <div className="flex mb-3 space-x-4 ">
           <SocialIcon
             kind="mail"
@@ -38,6 +41,15 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
+          <div className='flex flex-col'>
+            <p className='text-white'>Partner</p>
+            <LogoLeckerLaden className="w-28 h-28"></LogoLeckerLaden>
+          </div>
+            
+          </section>
+      
+
     </footer>
   )
 }

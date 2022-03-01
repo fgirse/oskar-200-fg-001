@@ -126,7 +126,7 @@ export default class MyDocument extends Document {
             crossOrigin="anonymous"
           />
         </Head>
-        <body className="bg-slate-800 text-black antialiased dark:bg-gray-900 dark:text-white">
+        <body className="bg-slate-800 text-blue-500 font--sans dark:bg-gray-900 dark:text-white">
           <Main />
           <NextScript />
         </body>
