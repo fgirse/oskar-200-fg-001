@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="bg-red-900 w-full border-yellow-300mx-auto">
 
           <section className='flex flex-row justify-around items-center'>
-            <div className='bg-blue-500 w-3/12 h-36'></div>
+            <div className=' w-4/12 h-36'></div>
           <div className="flex flex-col items-center mt-16">
         <div className="flex mb-3 space-x-4 ">
           <SocialIcon
@@ -42,12 +42,12 @@ export default function Footer() {
         </div>
       </div>
 
-          <div className='flex flex-col'>
+          <div className='flex flex-row w-4/12 justify-start items-center gap-x-5'>
             <p className='text-white'>Partner</p>
-            <LogoLeckerLaden className="w-28 h-28"></LogoLeckerLaden>
+            <LogoLeckerLaden className="w-28 h-9 inline"></LogoLeckerLaden>
           </div>
             
-          </section>
+          </section>f
       
 
     </footer>

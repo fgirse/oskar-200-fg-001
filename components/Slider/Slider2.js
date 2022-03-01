@@ -11,7 +11,7 @@ export default function EmblaCarousel() {
         <div className="embla__slide">
         <Image
                     src="/Impress01.jpg"
-                    alt="Second slide"
+                    alt="1. slide"
                     height="160"
                     width="200"
                     layout="responsive"
@@ -22,7 +22,7 @@ export default function EmblaCarousel() {
         <div className="embla__slide">
         <Image
                     src="/Impress02.jpg"
-                    alt="Second slide"
+                    alt="2. slide"
                     height="160"
                     width="200"
                     layout="responsive"
@@ -35,7 +35,7 @@ export default function EmblaCarousel() {
 
         <Image
                     src="/Impress03.jpg"
-                    alt="Second slide"
+                    alt="3. slide"
                     height="160"
                     width="200"
                     layout="responsive"
@@ -43,6 +43,54 @@ export default function EmblaCarousel() {
                   />
 
 
+        </div>
+        <div className="embla__slide">
+
+        <Image
+                    src="/Impress04.jpg"
+                    alt="4. slide"
+                    height="160"
+                    width="200"
+                    layout="responsive"
+                    className="slick-image"
+                  />
+
+
+        </div>
+        <div className="embla__slide">
+
+        <Image
+                    src="/Impress05.jpg"
+                    alt="5. slide"
+                    height="160"
+                    width="200"
+                    layout="responsive"
+                    className="slick-image"
+                  />
+
+
+        </div>
+        <div className="embla__slide">
+
+        <Image
+                    src="/Impress06.jpg"
+                    alt="6. slide"
+                    height="160"
+                    width="200"
+                    layout="responsive"
+                    className="slick-image"
+                  />
+        </div>
+        <div className="embla__slide">
+
+        <Image
+                    src="/Impress07.jpg"
+                    alt="7. slide"
+                    height="160"
+                    width="200"
+                    layout="responsive"
+                    className="slick-image"
+                  />
         </div>
       </div>
     </div>
