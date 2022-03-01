@@ -1,21 +1,5 @@
 {
-  "/404": "pages/404.html",
-  "/Kontact": "pages/Kontact.html",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/about": "pages/about.js",
-  "/api/convertkit": "pages/api/convertkit.js",
-  "/api/klaviyo": "pages/api/klaviyo.js",
-  "/api/mailchimp": "pages/api/mailchimp.js",
-  "/blog": "pages/blog.js",
-  "/drinks": "pages/drinks.html",
-  "/event": "pages/event.html",
-  "/geschichte": "pages/geschichte.html",
-  "/": "pages/index.js",
-  "/projects": "pages/projects.html",
-  "/sportarena": "pages/sportarena.html",
-  "/tags": "pages/tags.js",
-  "/tags/[tag]": "pages/tags/[tag].js",
-  "/team": "pages/team.html",
   "/_error": "pages/_error.js"
 }
