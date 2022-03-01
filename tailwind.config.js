@@ -352,7 +352,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'AC',
+        'Architects Daughter',
         'ui-sans-serif',
         'system-ui',
         '-apple-system',
@@ -369,7 +369,7 @@ module.exports = {
         '"Noto Color Emoji"',
       ],
       serif: [
-        'ui-serif',
+        'Roboto',
         'Georgia',
         'Cambria',
         '"Times New Roman"',
