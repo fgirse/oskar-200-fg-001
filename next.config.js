@@ -6,10 +6,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
-const withImages = require('next-images')
-const withTM = require('next-transpile-modules')(['@madzadev/image-slider'])
 
-module.exports = withImages(withTM())
 
 module.exports = {
   images: {
